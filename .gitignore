@@ -59,3 +59,5 @@ serialsent.raw
 status.txt
 tags
 test.ArduCopter/*
+docs/ArduCopter/
+docs/libraries/
