@@ -5,6 +5,13 @@ void userhook_init()
 {
     // put your initialisation code here
     // this will be called once at start-up
+    
+    //hal.uartC->begin(map_baudrate(g.serial3_baud, SERIAL3_BAUD), 128, 128);
+    //gcs3.init(hal.uartC);
+    
+    hal.uartC->begin();
+
+    
 }
 #endif
 
